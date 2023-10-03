@@ -1,0 +1,26 @@
+.aside-left {
+    display: flex;
+    flex-basis: 28.57%;
+
+    border: 1px solid rgb(62, 71, 105);
+}
+
+.aside-sub-left {
+    overflow: auto;
+}
+
+.aside-right {
+    display: flex;
+    flex-basis: 22.22%;
+
+    border: 1px solid rgb(62, 71, 105);
+}
+
+.aside-sub-right {
+    overflow: auto;
+}
+
+.menu-text {
+    font-family: Garamond;
+    font-size: 19px;
+}
