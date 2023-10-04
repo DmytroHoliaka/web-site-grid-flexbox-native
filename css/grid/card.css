@@ -30,7 +30,7 @@
 
 .picture {
     max-width: 100%;
-
+    border-radius: 10px;
     background-color: rgb(146, 162, 233);
 }
 
@@ -51,7 +51,7 @@
 
 .first-card {
     display: grid;
-    grid-column: 8/26;
+    grid-column: 9/27;
     grid-row: 2/12;
 
     background-color: rgb(146, 162, 233);
@@ -62,7 +62,7 @@
 
 .second-card {
     display: grid;
-    grid-column: 31/49;
+    grid-column: 32/50;
     grid-row: 2/12;
 
     background-color: rgb(146, 162, 233);
@@ -73,7 +73,7 @@
 
 .third-card {
     display: grid;
-    grid-column: 54/72;
+    grid-column: 55/73;
     grid-row: 2/12;
 
     background-color: rgb(146, 162, 233);
