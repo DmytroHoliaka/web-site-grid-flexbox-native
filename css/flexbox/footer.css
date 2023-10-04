@@ -12,6 +12,13 @@
 }
 
 .footer-sign {
+    display: flex;
+    align-items: center;
+
+    width: 13vw;
+    margin-right: 2.8vw;
+    margin-left: auto;
+
     color: rgb(255, 255, 255);
     text-align: right;
 }

@@ -1,26 +1,38 @@
 .aside-left {
     display: flex;
-    flex-basis: 28.57%;
+    flex-basis: 28.5%;
 
     border: 1px solid rgb(62, 71, 105);
 }
 
 .aside-sub-left {
+    flex-grow: 1;
+
     overflow: auto;
+    padding-top: 9.5%;
 }
 
 .aside-right {
     display: flex;
-    flex-basis: 22.22%;
+    flex-basis: 22.1%;
 
     border: 1px solid rgb(62, 71, 105);
 }
 
 .aside-sub-right {
+    flex-grow: 1;
+
+    padding-top: 10.5%;
     overflow: auto;
 }
 
 .menu-text {
+    flex-grow: 1;
+
     font-family: Garamond;
     font-size: 19px;
+    align-items: center;
+
+    padding-left: 16.66%;
+    padding-right: 16.66%;
 }
