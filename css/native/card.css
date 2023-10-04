@@ -1,0 +1,106 @@
+.cards {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 3.3vw 1.8vw;
+    overflow: hidden;
+}
+
+.cards > div {
+    overflow: hidden;
+}
+
+.first-card {
+    display: table-cell;
+    vertical-align: top;
+    width: 33.33%;
+
+    background-color: rgb(146, 162, 233);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.second-card {
+    display: table-cell;
+    vertical-align: top;
+    width: 33.33%;
+
+    background-color: rgb(146, 162, 233);
+    border-radius: 10px;
+}
+
+.third-card {
+    display: table-cell;
+    vertical-align: top;
+    width: 33.33%;
+
+    background-color: rgb(146, 162, 233);
+    border-radius: 10px;
+}
+
+.first-card > div {
+    margin: 5px;
+}
+
+.second-card > div {
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.third-card > div {
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.first-card-picture {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.second-card-picture {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.third-card-picture {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.picture {
+    max-width: 100%;
+
+    background-color: rgb(146, 162, 233);
+}
+
+.card-text {
+    text-align: center;
+    color: rgb(23, 40, 54);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 23px;
+    padding-top: 9px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.button {
+    text-align: center;
+    background-color: rgb(62, 71, 105);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+    height: 4.3vh;
+    width: 3.65vw;
+
+    font-family: Garamond;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.card-button {
+    overflow: hidden;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: rgba(62, 71, 105, 0.6);
+}

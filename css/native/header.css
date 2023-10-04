@@ -1,0 +1,33 @@
+.header {
+    width: 100%;
+    height: 19.44%;
+
+    background-color: rgb(255, 255, 255);
+    background-image: url("../../img/top.png");
+    background-size: cover;
+    background-position: center;
+
+    border: 1px solid rgb(62, 71, 105);
+    overflow: hidden;
+}
+
+.header-sign-left {
+    float: left;
+    width: 83%;
+    height: 100%;
+}
+
+.header-sign-right {
+    display: table;
+    float: right;
+    width: 17%;
+    height: 100%;
+}
+
+.header-sign-text {
+    display: table-cell;
+    vertical-align: middle;
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+}

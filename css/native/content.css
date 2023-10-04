@@ -1,0 +1,84 @@
+/* border: 1px solid rgb(62, 71, 105); */
+.content-top {
+    display: table;
+    height: 15.3%;
+    width: 99.81%;
+    box-lines: border-box;
+
+    border: 1px solid rgb(62, 71, 105);
+}
+
+.content-top-text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.content {
+    width: 91.81%;
+    height: 83.9%;
+    border: 1px solid rgb(62, 71, 105);
+    box-lines: border-box;
+
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.content-bottom {
+    display: table;
+    height: 14%;
+    width: 100%;
+    box-sizing: border-box;
+
+    background-color: rgb(226, 230, 250);
+    font-family: Garamond;
+    font-size: 24px;
+    overflow: hidden;
+
+    border: 1px solid rgb(62, 71, 105);
+}
+
+.content-bottom-text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.general-content {
+    height: 61.12%;
+    background-color: rgb(226, 230, 250);
+    overflow: hidden;
+}
+
+.general-content-without-right-aside {
+    float: left;
+    width: 77.9%;
+    height: 100%;
+    box-sizing: border-box;
+
+    background-color: rgb(226, 230, 250);
+}
+
+.general-content-without-content-bottom {
+    height: 86%;
+    width: 100%;
+    box-sizing: border-box;
+
+    background-color: rgb(226, 230, 250);
+}
+
+.main-and-top-content {
+    float: right;
+    box-sizing: border-box;
+    height: 100%;
+    width: 71.5%;
+
+    background-color: rgb(226, 230, 250);
+}
+
+.content-text {
+    position: relative;
+    font-family: Garamond;
+    font-size: 22px;
+
+    overflow: auto;
+}
